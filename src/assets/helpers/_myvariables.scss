@@ -1,0 +1,1571 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+ html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+html, body {
+  position: relative;
+}
+
+p,li,a{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* 其他樣式 */
+
+.btn-cart{
+  background-color: transparent;
+  position: relative;
+}
+
+.btn-cart .badge{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.dropdown-menu-right{
+  right: 0;
+  left: auto;
+}
+
+.bg-lighter{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box-shadow{
+  box-shadow: 0 3px 10px rgba(11, 94, 215, 0.6);
+  transition: 0.5s;
+}
+
+.box-shadow:hover{
+  box-shadow: 0 7px 15px rgba(11, 94, 215, 0.8);
+}
+
+.btn.disabled{
+  pointer-events: none;
+}
+
+.alert-rounded{
+  border-radius: 50px
+}
+
+.outline{
+  border: 1px solid red;
+}
+
+.footerbg{
+  background-color: #3a3a3a;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.__btn001{
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #2ba4c3;
+  padding: 8px;
+  border-radius: 5px;
+  color: #ffffff;
+  border: 0px;
+}
+
+.__btn001:hover{
+  background-color: blue;
+  transition: 0.5s;
+}
+
+/* bootstrap修改 */
+
+.bg-cover {
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 768px) {
+  .text-md-dark {
+    color: #190e1b;
+  }
+
+}
+
+/* Navbar樣式 */
+
+/* 更改背景顏色和全部字體租細 */
+
+nav.navbar{ 
+  background-color: #190e1b;
+  font-weight: bold;
+} 
+
+/* 更改品牌字體顏色 */
+
+.navbar a.navbar-brand{ 
+  color: #ffffff; 
+} 
+
+/* 更改品牌字體hover效果 */
+
+.navbar a.navbar-brand:hover{ 
+  color: #31d2f2;
+  transition: 0.5s;
+} 
+
+/* 更改選項字體顏色 */
+
+.navbar ul.navbar-nav li.nav-item a.nav-link{ 
+  color: #ffffff; 
+  font-size: 16px;
+} 
+
+/* 更改選項字體hover顏色 */
+
+.navbar ul.navbar-nav li.nav-item a.nav-link:hover{ 
+  color: #f5f354;
+  transition: 0.5s;
+} 
+
+/* 更改dropdown顏色和效果 */
+
+.dropdown-menu{
+  background-color: #ffffff; 
+}
+
+.dropdown-item{
+  text-align: center;
+  font-weight: bold;
+}
+
+.dropdown-item:active {
+  background-color: #0b5ed7 !important;
+  transition: 0.5s;
+}
+
+.dropdownText{
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+
+}
+
+/* 更改漢堡選單顏色和效果 */
+
+.navbar-toggler-icon{
+  border: 2px solid #686868;
+  border-radius: 5px;
+}
+
+.navbar-toggler-icon:hover{
+  border: 2px solid #f5f354;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+/* hover彈跳與變色效果 */
+
+.innerBar{
+  background-color: #f5f354;
+  width: 0%;
+  height: 3px;
+  transition: 0.3s;
+  margin-bottom: 3px;
+}
+
+.backgroundBar{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+  z-index: -1;
+  opacity: 0%;
+}
+
+.nav-item{
+  position: relative;
+}
+
+.nav-link{
+  z-index: 1;
+}
+
+.navbarBrandLogo{
+  width: 60px; 
+  background-color: #190e1b;
+  padding: 3px; 
+  border-radius: 0px;
+  margin: 0px;
+  box-shadow: 0px;
+}
+
+/* jumbotron樣式 */
+
+.jumbotron-bg{
+  background-color: #190e1b;
+  min-height: 400px;
+  display: flex;
+  margin-bottom: 0px;
+  position: relative; 
+
+}
+
+.jumbotronImg{
+  height: 550px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.jumbotronSubtitle{
+  position: absolute;
+  color: #f5f354;
+  font-weight: bold;  
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  z-index: 1;  
+}
+
+.jumbotronAllOutside{
+  display: flex;
+  flex-direction: column;
+}
+
+.jumbotronMou001{
+  max-width: 18%;
+  position: absolute;
+  bottom: 0;
+  left: 2.5%;
+  z-index: 1;
+  animation: upin 2s both;    
+}
+.jumbotronMou002{
+  max-width: 20%;
+  position: absolute;
+  bottom: 0;
+  left: 70%;
+  z-index: 2;
+  animation: upin 2s both;    
+}
+.jumbotronMou003{
+  max-width: 15%;
+  position: absolute;
+  bottom: 0;
+  left: 82%;
+  z-index: 1;
+  animation: upin 2s both;    
+}
+.jumbotronMou004{
+  max-width: 10%;
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  z-index: 2;
+  animation: upin 2s both;    
+}
+
+@keyframes upin {
+  0% {
+    bottom: -200px;
+  }
+  100% {
+    bottom: 0px;
+  }
+}
+
+.cover{
+  position: absolute;
+  max-width:72%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  animation-name: Shake;    /*動畫名稱，需與 keyframe 名稱對應*/
+  animation-duration: 3.5s;    /*動畫持續時間，單位為秒*/
+  animation-delay: 0s;    /*動畫延遲開始時間*/
+  /* animation-iteration-count: infinite;    動畫次數，infinite 為無限次  */
+}
+
+//光點公轉樣式
+
+.centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.glowing-wrapper{
+  width:100%;
+}
+
+.glowing {
+  position: absolute;
+  width: 18em;
+  height: 18em;
+  transform: translate(-50%, -50%);
+}
+
+// .glowing:before{
+//   content: "";
+//   position: absolute;
+//   left: calc(8em - 1px);
+//   top: calc(8em - 1px);
+//   width: 32px;
+//   height: 32px;
+//   border-radius: 50%;
+//   background:rgba(255,255,255, 0.7);
+//   box-shadow: 
+//     0 0 0 5px rgba(255,255,255, 0.1),
+//     0 0 20px rgb(255, 255, 255, 1),
+//     0 0 40px rgba(255,255,255, 1),
+//     0 0 60px rgba(255,255,255, 1);
+  
+// }
+
+.glowing span {
+  position: absolute;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.glowing span:before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.glowing span:nth-of-type(1):before {
+  background: rgba(255, 65, 65, 0.7);
+  box-shadow: 
+    0 0 0 5px rgba(255, 65, 65, 0.1),
+    0 0 20px rgba(255, 65, 65, 1),
+    0 0 40px rgba(255, 65, 65, 1),
+    0 0 60px rgba(255, 65, 65, 1);
+}
+
+.glowing span:nth-of-type(2):before {
+  background: rgba(133, 246, 127, 0.7);
+  box-shadow: 
+    0 0 0 5px rgba(247, 245, 41, 0.1),
+    0 0 20px rgb(133, 246, 127, 1),
+    0 0 40px rgba(133, 246, 127, 1),
+    0 0 60px rgba(133, 246, 127, 1);
+}
+
+.glowing span:nth-of-type(3):before {
+  background: rgba(247, 70, 208, 0.7);
+  box-shadow: 
+    0 0 0 5px rgba(247, 70, 208, 0.1),
+    0 0 20px rgba(247, 70, 208, 1),
+    0 0 40px rgba(247, 70, 208, 1),
+    0 0 60px rgba(247, 70, 208, 1);
+}
+
+.glowing span:nth-of-type(1) {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid rgb(255, 255, 255, 0.2);
+  animation: rotate-ani 2s linear infinite;
+}
+
+.glowing span:nth-of-type(2) {
+  top: 2em;
+  left: 2em;
+  right: 2em;
+  bottom: 2em;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  animation: rotate-ani 2s linear infinite;
+}
+
+.glowing span:nth-of-type(3) {
+  top: 4em;
+  left: 4em;
+  right: 4em;
+  bottom: 4em;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  animation: rotate-ani 2s linear infinite;
+}
+
+@keyframes rotate-ani{
+  0%{transform:rotate(0deg);}
+   100%{transform:rotate(360deg);}
+}
+
+/* 關於伍佰 */
+
+/* 歌手簡介 */
+
+.SingerAllOutside{
+  position: relative; 
+  background-color: #2ba4c3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.SingerSubtitle{
+  text-align: justify;
+  text-justify: inter-ideograph;
+  font-weight: bold;
+}
+
+/* 成團過程 */
+
+.GroupAllOutside{
+  position: relative;
+  background-color: #190e1b;
+  color: #ffffff
+}
+
+.GroupAllInside{
+  position: relative;
+  color: #000000;
+}
+
+.GroupContentAllOutside{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px 5px 5px 5px;
+  z-index: 1;
+}
+
+.GroupContentTitle{
+  font-weight: bold;
+  margin: 30px;
+  padding: 5px;
+  color: #ffffff;
+  border: 5px solid #ffc400;
+  width: 52%;
+}
+
+.GroupMemberOutsideTag{
+  cursor: pointer;
+}
+
+.GroupMemberOutside{
+  border-radius: 50%;
+  margin-top: 20px;
+  position: relative;
+}
+
+.GroupMemberInside{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.GroupMemberContent{
+  text-align: justify;
+  text-justify: inter-ideograph;
+  width: 100%;
+  color: #343a40;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: bold;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+
+  width: 100%;
+  height: 100%;
+
+  z-index:-1;
+}
+
+.GroupMemberContentShow{
+  z-index:1;
+}
+
+.GroupMemberInnerContent{
+  width: 70%; 
+  font-size: 12px
+}
+
+.GroupMemberSubtitle{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.GroupMou001{
+  max-width: 17%;
+  position: absolute;
+  top: 0;
+  left: 2.5%;
+  z-index: 1;
+}
+
+.GroupMou002{
+  max-width: 15%;
+  position: absolute;
+  top: 0;
+  left: 78%;
+  z-index: 2;
+}
+
+.GroupMou003{
+  max-width: 14%;
+  position: absolute;
+  top: 0;
+  left: 7%;
+  z-index: 2;
+}
+
+.GroupMou004{
+  max-width: 14%;
+  position: absolute;
+  top: 0;
+  left: 83%;
+  z-index: 1;
+}
+
+.GroupMou005{
+  max-width: 20%;
+  position: absolute;
+  bottom: 0;
+  left: 3%;
+  z-index: 1;
+}
+
+.GroupMou006{
+  max-width: 20%;
+  position: absolute;
+  bottom: 0;
+  left: 80%;
+  z-index: 1;
+}
+
+.GroupMou007{
+  max-width: 20%;
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  z-index: 1;
+}
+
+.GroupDescription{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  text-justify: inter-ideograph;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 170px;
+  z-index: 1
+}
+
+/* 歌迷留言 */
+
+.FansAllOutside{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #2ba4c3;
+  position: relative;
+}
+
+.FansTitleOutside{
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  background-color: #2ba4c3; 
+  border-radius: 5px 5px 0px 0px; 
+}
+
+.FansTitle{
+  font-weight: bold;
+  margin: 0px;
+  padding: 5px;
+  width: 52%;
+  border: 5px solid #343a40;
+  background-color: #eeeeee; 
+  color: #190e1b;
+}
+
+.FansRobotImg{
+  position:relative;
+  margin-bottom: 400px;
+}
+
+.robotStyle{
+  width: 70%;
+  position:absolute; 
+  left:50%; 
+  top:50%; 
+  transform: translate(-60%,0%)
+}
+
+.robotStyle2{
+  z-index: -1;
+  width: 80%;
+  position:absolute; 
+  left:50%; 
+  top:50%; 
+  transform: translate(-60%,0%)
+}
+
+.fistStyle{
+  width: 35%;
+  position:absolute; 
+  left:50%; 
+  top:50%; 
+  transform: translate(-10%,52%);
+  animation-name: rightFistAnimate;    /*動畫名稱，需與 keyframe 名稱對應*/
+  animation-duration: 1s;    /*動畫持續時間，單位為秒*/
+  animation-delay: 0s;    /*動畫延遲開始時間*/
+  animation-iteration-count: infinite;  /* 動畫次數，infinite 為無限次*/
+}
+
+@keyframes rightFistAnimate {
+  0% {
+    transform: translate(-10%,52%) scale(1);
+  }
+  50% {
+    transform: translate(20%,32%) scale(1.4);
+  }
+  100% {
+    transform: translate(-10%,52%) scale(1);
+  }
+}
+
+/* todolist */
+
+.mylist {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  padding: 40px;
+  border: solid 4px #190e1b;
+  background-color: #eeeeee;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+
+.sendMessage {
+  cursor: pointer;
+  margin: 10px;
+  padding: 1px 2px;
+  border: solid 3px #190e1b;
+  background-color: #190e1b;
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 1.5rem;
+  font-size: 16px;
+}
+
+.sendMessage:hover {
+  background-color: #de3440;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.myNameLabel {
+  width: 15%;
+  font-weight: bold;
+  margin-left: 1.5rem;
+  font-size: 16px;
+}
+
+.myMessageLabel {
+  width: 15%;
+  font-weight: bold;
+  margin-left: 1.5rem;
+  font-size: 16px;
+}
+
+.nameText {
+  width: 50%;
+  outline: none;
+}
+
+.messageText {
+  width: 50%;
+  outline: none;
+}
+
+.listInnerStyle {
+  margin-left: 0px;
+  border: 3px solid #000000;
+  background-color: #ffffff;
+  width: 100%;
+  height: 30px;
+}
+
+
+// 飛碟游標
+
+.mouseImg{
+  position: fixed;
+  z-index: 3;
+  transform: translate(-50%,-50%);
+  pointer-events: none;
+  animation-name: ufoAnimate;    /*動畫名稱，需與 keyframe 名稱對應*/
+  animation-duration: 0.5s;    /*動畫持續時間，單位為秒*/
+  animation-delay: 0s;    /*動畫延遲開始時間*/
+  animation-iteration-count: infinite;  /* 動畫次數，infinite 為無限次*/
+}
+
+@keyframes ufoAnimate {
+  0% {
+    transform: translate(-50%,-50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%,-50%) scale(1.1);
+  }
+  100% {
+    transform: translate(-50%,-50%) scale(1);
+  }
+}
+
+/* 娛樂新聞 */
+
+/* 歷年專輯 */
+
+#list{
+	padding:20px 10px 0px 10px;
+  margin-bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#list li{
+	margin:1px;
+	list-style-type:none;
+}
+
+#list2{
+	padding:0px 10px 10px 10px;
+  margin-top: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#list2 li{
+	margin:1px;
+	list-style-type:none;
+}
+
+.__filterBtn{
+  font-size: 14px;
+  background-color: #190e1b;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.__filterBtn:hover{
+  background-color: #2ba4c3;
+}
+
+
+/* 暢銷金曲 */
+
+.entertainAllOutside {
+  background-color: #190e1b;
+  margin-bottom: 0;
+}
+
+.entertainTitleOutside {
+  margin: 44px 0px 25px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #190e1b;
+}
+
+.entertainTitle {
+  font-weight: bold;
+  border: 5px solid #ffc400;
+  background-color: #190e1b;
+  color: #ffffff;
+  padding: 5px 20px 5px 20px;
+  width: 52%;
+  text-align: center;
+}
+
+.entertainStyle003 {
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+.SongAllOutside {
+  background-color: #2ba4c3;
+}
+
+.SongTitleOutside {
+  margin: 25px 0px 25px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2ba4c3;
+}
+
+.SongTitle{
+  font-weight: bold;
+  border: 5px solid #190e1b;
+  background-color: #eeeeee;
+  color: #190e1b;
+  padding: 5px 20px 5px 20px;
+  width: 52%;
+  text-align: center;
+}
+
+.SongSingleOutside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 15px 0px;
+}
+
+.songSingle {
+  width: 100%;
+}
+
+.__songBtn {
+  background-color: #163791;
+  color: #ffffff;
+}
+
+.__songBtn:hover {
+  background-color: #005cb1;
+}
+
+.photoTitleOutside {
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #190e1b;
+}
+
+.photoTitle {
+  font-weight: bold;
+  border: 5px solid #ffc400;
+  background-color: #190e1b;
+  color: #ffffff;
+  margin: 0px 0px 20px 0px;
+  padding: 5px 20px 5px 20px;
+  width: 52%;
+  text-align: center;
+}
+
+.photoAllOutside {
+  background-color: #190e1b;
+  padding: 25px 0px 40px 0px;
+}
+
+/* 新聞快訊 */
+
+.articlePic {
+  width: 100%;
+}
+
+.articleLayout {
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 10px 0px 10px 0px; 
+}
+
+.articleContentLayout {
+  //不能和ellipsis共用
+  // text-align: justify;
+  // text-justify: inter-ideograph;
+}
+
+/* 側面選單 */
+
+.aside {
+  position: fixed;
+  border-radius: 0px 10px 10px 0px;
+  margin-top: 150px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 35%;
+  height: 50%;
+  z-index: 1;
+  background: transparent;
+  transform: translateX(-101%);
+  transition: 0.3s ease;
+}
+
+.aside.asideIn {
+  transform: translateX(0%);
+}
+
+.asideMenuTitleOutside {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: #2ba4c3;
+
+}
+
+.asideMenuTitle {
+  font-weight: bold;
+  padding: 5px 10px 5px 10px;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ffc400;
+  color: #303030;
+}
+
+.asideMenuIconOutside {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  background-color: transparent;
+  position: relative;
+}
+
+.asideMenuIcon {
+  font-weight: bold;
+  background-color: #ffc400;
+  color: #190e1b;
+  border-radius: 0px 10px 10px 0px;
+  padding: 5px 10px 5px 10px;
+  height: 100px;
+  text-align: right;
+  transform: translateX(100%);
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+}
+
+.asideMenuArticle {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin: 10px;
+  font-weight: bold;
+  list-style: none;
+}
+
+.asideMenuPic {
+  width: 100%;
+}
+
+.btn:hover, .btn:focus, .btn, .btn-block, .btn-block:focus, .btn-link, .btn-link:focus, .button, .button:focus {
+  outline: none;
+}
+
+.sidePoster {
+  width: 100%;
+  padding: 20px 5px 20px 5px;
+}
+
+.ellipsis1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ellipsis3 {
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3; /*行數*/
+  -webkit-box-orient: vertical;
+  -webkit-box-align: end;
+  white-space: normal;
+}
+
+.readMore {
+  cursor: pointer;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  background-color: transparent;
+  color: primary;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.readMoreHidden {
+  display: none;
+}
+
+/* 客服信箱 */
+
+.contactAllSapce {
+  background-color: #190e1b;
+}
+
+.contactTitleOuterSpace {
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #190e1b;
+}
+
+.contactTitle{
+  font-weight: bold;
+  border: 5px solid #ffc400;
+  background-color: #190e1b;
+  color: #ffffff;
+  margin: 0px 0px 20px 0px;
+  padding: 5px 20px 5px 20px;
+  width: 52%;
+  text-align: center;
+}
+
+.contactpicStyle {
+  width: 100%;
+}
+
+.contactFormString {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+// 底部回頂標籤
+.backToTop {
+  background-color: #ff00ea;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  z-index: 3;
+  position: fixed;
+  right: 20px;
+  bottom: -100px;
+  transition: 0.3s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.showToTopTag {
+  bottom: 40px;
+}
+
+.arrowUp {
+  z-index: 4;
+  width: 50%;
+}
+
+//RWD
+
+@media(min-width: 768px) and (max-width: 820px) {
+
+  //無敵鐵金剛特效
+
+  .robotStyle {
+    display: none;
+  }
+
+  .robotStyle2 {
+    z-index:1;
+  }
+
+  .fistStyle {
+    display: none;
+  }
+
+  //滑鼠特效
+
+  .mouseImg {
+    display: none;
+  }
+  
+  //其他調整
+
+  .contactAllSapce {
+    height: 1000px;
+  }
+
+}
+
+
+@media (max-width: 767px) {
+
+  //成團過程
+
+  .GroupMemberContent {
+    display: none
+  }
+  
+  //歷年專輯
+
+  .__filterBtn {
+    font-size: 12px;
+  }
+  
+  //暢銷金曲
+
+  .__songBtn {
+    font-size: 12px;
+  }
+
+  //滑鼠特效
+
+  .mouseImg {
+    display: none;
+  }
+
+  //冰山特效
+
+  .GroupMou001 {
+    width: 0%;
+  }
+
+  .GroupMou002 {
+    width: 0%;
+  }
+
+  .GroupMou003 {
+    width: 0%;
+  }
+
+  .GroupMou004 {
+    width: 0%;
+  }
+
+  .GroupMou005 {
+    width: 0%;
+  }
+
+  .GroupMou006 {
+    width: 0%;
+  }
+
+  .GroupMou006 {
+    width: 0%; 
+  }
+
+  .GroupMou007 {
+    width: 0%;
+  }
+
+  .jumbotronMou001 {
+    width: 0%;
+  }
+
+  .jumbotronMou002 {
+    width: 0%;
+  }
+
+  .jumbotronMou003 {
+    width: 0%;
+  }
+
+  .jumbotronMou004 {
+    width: 0%;
+  }
+
+  //無敵鐵金剛特效
+
+  .robotStyle {
+    display: none;
+  }
+
+  .robotStyle2 {
+    z-index:1;
+    display: none;
+  }
+
+  .fistStyle {
+    display: none;
+  }
+
+  //其他調整
+
+  .jumbotronImg {
+    height: 350px;
+  }
+
+  .GroupDescription {
+    padding-bottom: 30px;
+  }
+
+  .GroupMemberOutsideTag{
+    cursor: default;
+  }
+  
+  .FansAllOutside {
+    padding-bottom: 10px;
+  }
+
+  .FansRobotImg {
+    margin-bottom: 30px;
+  }
+
+  .aside {
+    width: 80%;
+  }
+
+}
